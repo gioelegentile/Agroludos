@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<actions>
+	
+	<!-- LOGIN UI -->
+
+	<action value="login">
+		<class>presentation.ApplicationController</class>
+		<method>login</method>
+	</action>
+	
+	<action value="loginRegistration">
+		<class>presentation.ApplicationController</class>
+		<method>loginRegistration</method>
+	</action>
+	
+	<action value="dispatch">
+		<class>presentation.ApplicationController</class>
+		<method>dispatch</method>
+	</action>
+
+	<!-- ADMIN UI -->
+
+	<action value="adminHome">
+		<class>presentation.ApplicationController</class>
+		<method>adminHome</method>
+	</action>
+	
+	<action value="adminCompetitions">
+		<class>presentation.ApplicationController</class>
+		<method>adminCompetitions</method>
+	</action>
+	
+	<action value="adminOptionals">
+		<class>presentation.ApplicationController</class>
+		<method>adminOptionals</method>
+	</action>
+	
+	<action value="adminTypes">
+		<class>presentation.ApplicationController</class>
+		<method>adminTypes</method>
+	</action>
+	
+	<action value="adminManagers">
+		<class>presentation.ApplicationController</class>
+		<method>adminManagers</method>
+	</action>
+	
+	<!-- MANAGER UI -->
+	
+	<action value="managerHome">
+		<class>presentation.ApplicationController</class>
+		<method>managerHome</method>
+	</action>
+	
+	<action value="managerCreateCompetition">
+		<class>presentation.ApplicationController</class>
+		<method>managerCreateCompetition</method>
+	</action>
+	
+	<action value="managerCompetitions">
+		<class>presentation.ApplicationController</class>
+		<method>managerCompetitions</method>
+	</action>
+	
+	<action value="managerParticipationList">
+		<class>presentation.ApplicationController</class>
+		<method>managerParticipationList</method>
+	</action>
+	
+	<!-- USER UI -->
+	
+	<action value="userRegistration">
+		<class>presentation.ApplicationController</class>
+		<method>userRegistration</method>
+	</action>
+	
+	<action value="userSignCompetition">
+		<class>presentation.ApplicationController</class>
+		<method>userSignCompetition</method>
+	</action>
+	
+	<action value="userHome">
+		<class>presentation.ApplicationController</class>
+		<method>userHome</method>
+	</action>
+	
+	<action value="userDataView">
+		<class>presentation.ApplicationController</class>
+		<method>userDataView</method>
+	</action>
+	
+	<action value="userCompetitions">
+		<class>presentation.ApplicationController</class>
+		<method>userCompetitions</method>
+	</action>
+	
+	<!-- GUEST UI -->
+	
+	<action value="dataView">
+		<class>presentation.ApplicationController</class>
+		<method>dataView</method>
+	</action>
+	
+	<action value="guestHome">
+		<class>presentation.ApplicationController</class>
+		<method>guestHome</method>
+	</action>
+	
+	<action value="guestCompetitions">
+		<class>presentation.ApplicationController</class>
+		<method>guestCompetitions</method>
+	</action>
+	
+</actions>

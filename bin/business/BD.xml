@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<actions>
+
+		<!-- COMPETITIONS -->
+
+		<action value = "createCompetition">
+			<class>business.CompetitionsManagement</class>
+			<method>createCompetition</method>
+		</action>
+		
+		<action value = "getCompetitionOptionals">
+			<class>business.CompetitionsManagement</class>
+			<method>getCompetitionOptionals</method>
+		</action>
+		
+		<action value = "disposeCompetition">
+			<class>business.CompetitionsManagement</class>
+			<method>disposeCompetition</method>
+		</action>
+		
+		<action value = "updateCompetition">
+			<class>business.CompetitionsManagement</class>
+			<method>updateCompetition</method>
+		</action>
+		
+		<action value = "getCompetitionsAsPlayer">
+			<class>business.CompetitionsManagement</class>
+			<method>getCompetitionsAsPlayer</method>
+		</action>
+		
+		<action value = "getCompetitionsAsUser">
+			<class>business.CompetitionsManagement</class>
+			<method>getCompetitionsAsUser</method>
+		</action>
+		
+		<action value = "getActiveCompetitions">
+			<class>business.CompetitionsManagement</class>
+			<method>getActiveCompetitions</method>
+		</action>
+
+		<action value = "getCompetitionData">
+			<class>business.CompetitionsManagement</class>
+			<method>getCompetitionData</method>
+		</action>
+		
+		<action value = "getCompetitionsAsAdmin">
+			<class>business.CompetitionsManagement</class>
+			<method>getCompetitionsAsAdmin</method>
+		</action>
+		
+		<action value = "getCompetitionsAsManager">
+			<class>business.CompetitionsManagement</class>
+			<method>getCompetitionsAsManager</method>
+		</action>
+		
+		<!-- MANAGER -->
+		
+		<action value = "getManagers">
+			<class>business.ManagersManagement</class>
+			<method>getManagers</method>
+		</action>
+		
+		<action value = "getManagerEmail">
+			<class>business.ManagersManagement</class>
+			<method>getManagerEmail</method>
+		</action>
+	
+		<action value = "addManager">
+			<class>business.ManagersManagement</class>
+			<method>addManager</method>
+		</action>
+
+		<action value = "deleteManager">
+			<class>business.ManagersManagement</class>
+			<method>deleteManager</method>
+		</action>
+		
+		<action value = "getManager">
+			<class>business.ManagersManagement</class>
+			<method>getManager</method>
+		</action>
+		
+		<action value = "getUsersNotManager">
+			<class>business.ManagersManagement</class>
+			<method>getUsersNotManager</method>
+		</action>
+		
+		<!-- PARTICIPATIONS -->
+		
+		<action value = "addParticipation">
+			<class>business.ParticipationsManagement</class>
+			<method>addParticipation</method>
+		</action>
+		
+		<action value = "deleteParticipation">
+			<class>business.ParticipationsManagement</class>
+			<method>deleteParticipation</method>
+		</action>
+		
+		<action value = "updateParticipation">
+			<class>business.ParticipationsManagement</class>
+			<method>updateParticipation</method>
+		</action>
+		
+		<action value = "getParticipations">
+			<class>business.ParticipationsManagement</class>
+			<method>getParticipations</method>
+		</action>
+		
+		<action value = "getParticipationData">
+			<class>business.ParticipationsManagement</class>
+			<method>getParticipationData</method>
+		</action>
+		
+		<action value = "getParticipationsData">
+			<class>business.ParticipationsManagement</class>
+			<method>getParticipationsData</method>
+		</action>
+		
+		<action value = "getParticipationOptionals">
+			<class>business.ParticipationsManagement</class>
+			<method>getParticipationOptionals</method>
+		</action>
+
+		<!-- ADMIN MANAGEMENT -->
+		
+		<action value = "getAdminUsername">
+			<class>business.AdminManagement</class>
+			<method>getAdminUsername</method>
+		</action>
+		
+		<action value = "getAdminPassword">
+			<class>business.AdminManagement</class>
+			<method>getAdminPassword</method>
+		</action>
+		
+		<!-- TYPES MANAGEMENT -->
+		
+		<action value = "addType">
+			<class>business.TypesManagement</class>
+			<method>addType</method>
+		</action>
+		
+		<action value = "deleteType">
+			<class>business.TypesManagement</class>
+			<method>deleteType</method>
+		</action>
+		
+		<action value = "getTypes">
+			<class>business.TypesManagement</class>
+			<method>getTypes</method>
+		</action>
+		
+		<!-- OPTIONALS MANAGEMENT -->
+		
+		<action value = "addOptional">
+			<class>business.OptionalsManagement</class>
+			<method>addOptional</method>
+		</action>
+		
+		<action value = "deleteOptional">
+			<class>business.OptionalsManagement</class>
+			<method>deleteOptional</method>
+		</action>
+		
+		<action value = "getOptionals">
+			<class>business.OptionalsManagement</class>
+			<method>getOptionals</method>
+		</action>
+		
+		<!-- USERS MANAGEMENT -->
+		
+		<action value = "addUser">
+			<class>business.UsersManagement</class>
+			<method>addUser</method>
+		</action>
+		
+		<action value = "updateUserData">
+			<class>business.UsersManagement</class>
+			<method>updateUserData</method>
+		</action>
+		
+		<action value = "getUsers">
+			<class>business.UsersManagement</class>
+			<method>getUsers</method>
+		</action>
+		
+		<action value = "getUserData">
+			<class>business.UsersManagement</class>
+			<method>getUserData</method>
+		</action>
+		
+		<!-- GUESTS MANAGEMENT -->
+		
+		<action value = "addGuest">
+			<class>business.GuestsManagement</class>
+			<method>addGuest</method>
+		</action>
+		
+		<action value = "updateGuestData">
+			<class>business.GuestsManagement</class>
+			<method>updateGuestData</method>
+		</action>
+		
+		<action value = "getGuest">
+			<class>business.GuestsManagement</class>
+			<method>getGuest</method>
+		</action>
+			
+		<action value = "getGuests">
+			<class>business.GuestsManagement</class>
+			<method>getGuests</method>
+		</action>
+		
+</actions>
